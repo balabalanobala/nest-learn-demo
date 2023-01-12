@@ -1,3 +1,4 @@
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -71,3 +72,23 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## 题目记录
+
+### 3.5 cli初试
+
+目标：创建一个get请求的接口/range，参数是怕params的num，当传递num为5时，响应客户端，一组数据：
+
+```js
+{
+  code: 0,
+  msg: "请求成功",
+  data: ['1', '2', '3', '4', '5']
+}
+```js
+
+注意：
+- 第三方库产生的arr
+- arr里面是string
+- 加分：判断num参数传递是否正确
+- 加分：代码文件名，方法名等
